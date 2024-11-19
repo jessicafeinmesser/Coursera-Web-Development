@@ -23,7 +23,7 @@ body {
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 10;
   line-height: .75;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
@@ -76,10 +76,7 @@ body {
   text-align: center;
   overflow: hidden;
 }
-#chicken-tile:hover, #beef-tile:hover, #sushi-tile:hover{
-  box-shadow: 0 1px 5px 1px #cccccc;
-}
-}
+
 #chicken-tile span, #beef-tile span, #sushi-tile span {
   position: absolute;
   bottom: 0;
