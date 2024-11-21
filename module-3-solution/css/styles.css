@@ -110,11 +110,7 @@ body {
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-  /* Home Page */
-  .container .jumbotron {
-    background: url('../images/jumbotron_768.jpg') no-repeat;
-    height: 432px;
-  }
+
   /* End Home Page */
 }
 
@@ -138,9 +134,9 @@ body {
 
   /* Home Page */
 
-  #chicken-tile, #beef-tile {
-    width: 360px;
-    margin: 0 auto 15px;
+  #chicken-tile, #beef-tile, #sushi-tile {
+    width: 360px; /* Same width for all tiles */
+    margin: 0 auto 15px; /* Center alignment */
   }
 }
 
@@ -155,9 +151,9 @@ body {
   /* End Header */
   
   /* Home page */
-  #chicken-tile, #beef-tile {
-    width: 280px;
-    margin: 0 auto 15px;
+   #chicken-tile, #beef-tile, #sushi-tile {
+    width: 280px; /* Same width for all tiles */
+    margin: 0 auto 15px; /* Center alignment */
   }
 
   .col-xxs-12 {
