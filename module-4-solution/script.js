@@ -42,6 +42,7 @@ WARNING!!! WARNING!!!
 // See Lecture 50, part 1
   for (name in names) {
     var firstLetter = name.charAt(0).toLowerCase;
+    console.log(firstLetter);
     if (firstLetter == 'j'){
       byeSpeaker.speak(name);
     } else { helloSpeaker.speak(name);}
