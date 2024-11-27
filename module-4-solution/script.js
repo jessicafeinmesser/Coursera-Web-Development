@@ -8,8 +8,6 @@
   for (var index in names) {
     var name = names[index];
     var firstLetter = name.charAt(0).toLowerCase();
-    console.log("Processing name:", name); // Debugging: log the name
-    console.log("First letter:", firstLetter); // Debugging: log the first letter
     if (firstLetter == 'j'){
       byeSpeaker.speak(name);
     } else { helloSpeaker.speak(name);}
