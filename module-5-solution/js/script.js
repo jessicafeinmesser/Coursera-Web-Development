@@ -26,6 +26,11 @@ var menuItemHtml = "snippets/menu-item.html";
 // Convenience function for inserting innerHTML for 'select'
 var insertHtml = function (selector, html) {
   var targetElem = document.querySelector(selector);
+  console.log("Debug: Selector is", selector, "| Target element is:", targetElem);
+  if (!targetElem) {
+    console.error("Element not found for selector:", selector);
+    return;
+  }
   targetElem.innerHTML = html;
 };
 
